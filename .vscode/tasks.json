@@ -1,0 +1,40 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        //TODO: These have issues that need to be resolved
+        {
+            "label":"regular build",
+            "type": "cargo",
+            "subcommand": "build",           
+            "problemMatcher": [
+                "$rustc"
+            ],           
+        },
+        {
+            "label":"build OS",
+            "type":"shell",
+            "command":"cargo",
+            "args":["build", "--target", "thumbv7em-none-eabihf"],
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "cargo",
+            "subcommand": "test",
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        }
+    ]
+}
