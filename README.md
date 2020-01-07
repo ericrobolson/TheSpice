@@ -3,7 +3,14 @@ A proof of concept Rust Operating System. Depending on the success, will move to
 
 
 ## Phase 01
-Implement a bare bones Operating System in Rust.
+Implement a simple, Lisp-like language 
 
 ## Phase 02
-After the creation of a proof of concept OS, this project will move towards implementing an OS based on WASM.
+Transpiles to JS and Rust
+
+## Key Features
+Statically typed
+Macro enabled
+Pure functions
+Massively parallelized
+Rust + JS compiling
