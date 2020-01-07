@@ -15,6 +15,7 @@ Reactive/observable types?
 Design goals:
 * Statically typed
 * Macro enabled
+* Functionally reactive?
 * Pure functions
 * Massively parallelized
 * Rust + JS compiling
