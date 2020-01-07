@@ -21,3 +21,4 @@ Design goals:
 * Rust + JS compiling
 * Utilizes a 'virtual DOM'-type thingy with an OPEN GL context?
 * Maybe uses a 'actor' pattern, similiar to erlang?
+* Enums from rust?
