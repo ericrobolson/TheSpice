@@ -12,8 +12,10 @@ Transpiles to JS and Rust
 Reactive/observable types?
 
 ## Key Features
-Statically typed
-Macro enabled
-Pure functions
-Massively parallelized
-Rust + JS compiling
+Design goals:
+* Statically typed
+* Macro enabled
+* Pure functions
+* Massively parallelized
+* Rust + JS compiling
+* Utilizes a 'virtual DOM'-type thingy with an OPEN GL context?
