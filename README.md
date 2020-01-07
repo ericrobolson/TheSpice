@@ -20,3 +20,4 @@ Design goals:
 * Massively parallelized
 * Rust + JS compiling
 * Utilizes a 'virtual DOM'-type thingy with an OPEN GL context?
+* Maybe uses a 'actor' pattern, similiar to erlang?
