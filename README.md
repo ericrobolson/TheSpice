@@ -8,6 +8,9 @@ Implement a simple, Lisp-like language
 ## Phase 02
 Transpiles to JS and Rust
 
+## Phase 03
+Reactive/observable types?
+
 ## Key Features
 Statically typed
 Macro enabled
