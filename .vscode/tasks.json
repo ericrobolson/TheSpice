@@ -13,10 +13,10 @@
             ],           
         },
         {
-            "label":"build OS",
+            "label":"build rust compiler",
             "type":"shell",
             "command":"cargo",
-            "args":["build", "--target", "thumbv7em-none-eabihf"],
+            "args":["build"],
             "problemMatcher": [
                 "$rustc"
             ],
